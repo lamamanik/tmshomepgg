@@ -26,8 +26,8 @@ const Navbar = () => {
       <div
         className={
           !nav
-            ? "fixed left-o top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300]  ease-in-out duration-00"
-            : "fixed left-[-100%]"
+            ? "  fixed  left-o top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300]  ease-in-out duration-00"
+            : " fixed left-[-100%]"
         }
       >
         <h1 className="w-full text-3xl m-4 font-bold text-[#00d9fa]">TMS</h1>
