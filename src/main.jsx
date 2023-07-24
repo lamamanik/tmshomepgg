@@ -5,6 +5,7 @@ import Nabvar from "./components/Nabvar.jsx";
 import Hero from "./components/Hero.jsx";
 
 import Analytics from "./components/Analytics.jsx";
+import Analyticstwo from "./components/Analyticstwo.jsx";
 
 import "/src/index.css";
 
@@ -12,6 +13,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Nabvar />
     <Hero />
+    <Analytics />
+    <Analyticstwo />
     <Analytics />
   </React.StrictMode>
 );

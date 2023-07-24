@@ -12,11 +12,11 @@ const Hero = () => {
           Grow with our TMS
         </h1>
         <div className="flex flex-col">
-          <p className="md:text-4xl sm:text-3xl py-1 text-sm font-bold">
+          <p className="md:text-4xl sm:text-3xl py-1 text-3xl font-bold">
             simple,efficient way to
           </p>
           <Typed
-            className="md:text-4xl sm:text-3xl py-1 text-sm font-bold"
+            className="md:text-3xl sm:text-2xl py-1 text-1xl font-bold"
             strings={[
               "",
               "create task",
