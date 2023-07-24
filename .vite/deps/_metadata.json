@@ -1,0 +1,29 @@
+{
+  "hash": "3dc21437",
+  "browserHash": "4c0f0c5e",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "115d2650",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d6e34d0d",
+      "needsInterop": true
+    },
+    "react-icons/ai": {
+      "src": "../../node_modules/react-icons/ai/index.esm.js",
+      "file": "react-icons_ai.js",
+      "fileHash": "ec6c57ad",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-L7APZED3": {
+      "file": "chunk-L7APZED3.js"
+    }
+  }
+}
