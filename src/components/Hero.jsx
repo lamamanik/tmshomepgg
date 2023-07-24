@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[#00df9a] md:text-3xl sm:text-2xl text-xl font-bold">
+        <p className="text-[#112D4E] md:text-3xl sm:text-2xl text-xl font-bold">
           want to grow with future ?
         </p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-4 ">
@@ -29,7 +29,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <button className="bg-[#00df9a] w-[140px] rounded-md font-medium my-5 mx-auto py-2 text-black">
+        <button className="bg-[black] w-[140px] rounded-md font-medium my-5 mx-auto py-2 text-white">
           Get Started
         </button>
       </div>
