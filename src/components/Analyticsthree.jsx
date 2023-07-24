@@ -1,11 +1,11 @@
 import React from "react";
-import dashboard from "../assets/picture4.png";
+import dashboard from "../assets/picture9.png";
 
-const Analytics = () => {
+const Analyticsthree = () => {
   return (
-    <div className="w-full bg-white py-10 px-15 flex justify-center items-center">
+    <div className="w-full bg-white py-10 px-10 flex justify-center items-center">
       <div className="max-w-[1240px] flex flex-col md:flex-row justify-center items-center">
-        <img className="w-[500px] mx-auto my-4" src={dashboard} alt="/" />
+        <img className="w-[300px] mx-auto my-4" src={dashboard} alt="/" />
         <div className="flex flex-col justify-center text-center">
           <p className="text-[#00df9a] font-bold">Lorem ipsum dolor sit.</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
@@ -23,4 +23,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default Analyticsthree;

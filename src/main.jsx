@@ -6,6 +6,7 @@ import Hero from "./components/Hero.jsx";
 
 import Analytics from "./components/Analytics.jsx";
 import Analyticstwo from "./components/Analyticstwo.jsx";
+import Analyticsthree from "./components/Analyticsthree.jsx";
 
 import "/src/index.css";
 
@@ -15,6 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Hero />
     <Analytics />
     <Analyticstwo />
-    <Analytics />
+    <Analyticsthree />
   </React.StrictMode>
 );
