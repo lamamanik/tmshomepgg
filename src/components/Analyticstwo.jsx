@@ -3,8 +3,8 @@ import dashboard from "../assets/picture3.png";
 
 const Analyticstwo = () => {
   return (
-    <div className="w-full bg-white py-10 px-10 flex justify-center items-center">
-      <div className="max-w-[1240px] flex flex-col md:flex-row sm:flex-col-reverse justify-center items-center">
+    <div className="w-full bg-white flex justify-center items-center">
+      <div className="max-w-[1240px] mx-20 flex flex-col md:flex-row sm:flex-col-reverse justify-center items-center">
         <div className="flex flex-col justify-center text-center">
           <p className="text-[#00df9a] font-bold">Lorem ipsum dolor sit.</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
@@ -17,7 +17,7 @@ const Analyticstwo = () => {
             fugit animi? Veniam.
           </p>
         </div>
-        <img className="w-[500px] mx-auto my-4" src={dashboard} alt="/" />
+        <img className="w-[500px] mx-auto" src={dashboard} alt="/" />
       </div>
     </div>
   );
