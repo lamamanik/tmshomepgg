@@ -3,9 +3,9 @@ import Typed from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="text-white">
+    <div className="text-white bg-[#468B97]">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[#112D4E] md:text-3xl sm:text-2xl text-xl font-bold">
+        <p className="text-[#F4F2DE] md:text-3xl sm:text-2xl text-xl font-bold">
           want to grow with future ?
         </p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-4 ">
