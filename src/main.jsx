@@ -7,6 +7,7 @@ import Analytics from "./components/Analytics.jsx";
 import Us from "./components/Us.jsx";
 import Testomonial from "./components/Testomonial.jsx";
 import Lastko from "./components/Lastko.jsx";
+import Footer from "./components/Footer.jsx";
 
 import "/src/index.css";
 
@@ -18,5 +19,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Us />
     <Testomonial />
     <Lastko />
+    <Footer />
   </React.StrictMode>
 );

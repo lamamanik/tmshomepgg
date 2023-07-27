@@ -32,7 +32,7 @@ const Us = () => {
         <div className="grid grid-cols-1  lg:grid-cols-3  mx-8 sm:mx-20 gap-x-8 gap-y-10 pt-12 sm:pt-20 text-black">
           <div className="bg-[#EFE1D1] rounded-xl shadow-2xl ">
             <div className="p-8">
-              <img className="w-16 p-1 rounded mt-[-4rem]" src={logo} alt="" />
+              <img className="w-16 p-1 rounded  mt-[-4rem]" src={logo} alt="" />
               <h3 className="text-2xl font-bold">About Us</h3>
               <p className="text-1xl font-semibold ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
