@@ -30,9 +30,11 @@ const Hero = () => {
             loop
           />
         </div>
-        <button className="bg-[black] w-[140px] rounded-md font-medium my-5 mx-auto py-2 text-white">
-          Get Started
-        </button>
+        <a href="http://localhost/TMS/login.php">
+          <button className="bg-[black] w-[140px] rounded-md font-medium my-5 mx-auto py-2 text-white">
+            Get Started
+          </button>
+        </a>
       </div>
     </div>
   );

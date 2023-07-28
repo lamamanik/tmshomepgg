@@ -15,7 +15,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="max-w-[1500px] bg-[#071952] px-20 text-white  py-16 grid lg:grid-cols-3 gap-8 text-black-300">
+    <div className="max-w-[1700px] bg-[#071952] px-20 text-white  py-16 grid lg:grid-cols-3 gap-8 text-black-300">
       <div>
         <div className="flex flex-row justify-left items-center gap-0 my-1">
           <div>
