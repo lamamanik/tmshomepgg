@@ -5,7 +5,7 @@ import logo from "../assets/year.png";
 
 const Us = () => {
   return (
-    <div className="text-white w-full p-5 mb-20 ">
+    <div name="about" className="text-white w-full p-5 mb-20 ">
       <div className="w-full  rounded-xl left-0 right-0  h-[700px] bg-gray-900/90 absolute">
         <img
           className="w-full h-full bg-slate-500 object-cover mix-blend-overlay"
@@ -19,13 +19,11 @@ const Us = () => {
           <h2 className="text-3xl pt-8 text-slate-300 text-center">
             Who are we ??
           </h2>
-          <h3 className="text-5xl font-bold py-6 text-center">
-            we are the saviour
-          </h3>
+          <h3 className="text-5xl font-bold py-6 text-center">we are geeks.</h3>
           <p className="py-4 text-3xl text-slate-300 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            exercitationem distinctio iusto tempora voluptatum quo, corporis rem
-            suscipit vitae reprehenderit.
+            Passionate coding enthusiasts, university students exploring
+            development and enjoying Valorant Gold hardstuck gaming for fun
+            while working on our first college project.
           </p>
         </div>
 

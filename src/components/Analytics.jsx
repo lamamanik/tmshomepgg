@@ -1,24 +1,25 @@
 import React from "react";
 import card from "../assets/picture4.png";
 import dashboard from "../assets/picture3.png";
+
 import list from "../assets/picture9.png";
 
 const Analytics = () => {
   return (
-    <div className=" w-full  my-20 line-height">
+    <div name="features" className=" w-full  my-20 line-height">
       <div className="w-full   flex justify-center items-center">
         <div className="max-w-[1240px]  flex flex-col md:flex-row justify-center items-center">
           <img className="w-[500px] mx-auto" src={card} alt="/" />
           <div className="flex flex-col justify-center text-center">
             <p className="text-[#00df9a] font-bold">Lorem ipsum dolor sit.</p>
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-              Lorem ipsum dolor sit amet.
+              Clear Task Overview.
             </h1>
             <p className="font-sans font-semibold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              nobis quasi ab ad dolor ratione, dolores distinctio vero
-              blanditiis voluptatibus voluptate repellat nam aspernatur nemo,
-              possimus est fugit animi? Veniam.
+              Task cards provide a comprehensive overview of tasks, including
+              status, assignment time, and deadlines. Similarly, the
+              personalized staff dashboard offers this data with a completion
+              status button, enhancing task management.
             </p>
           </div>
         </div>
@@ -29,13 +30,15 @@ const Analytics = () => {
           <div className="flex flex-col justify-center text-center">
             <p className="text-[#00df9a] font-bold">Lorem ipsum dolor sit.</p>
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-              Lorem ipsum dolor sit amet.
+              Simple,Userfriendly dashboard
             </h1>
             <p className="font-sans font-semibold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              nobis quasi ab ad dolor ratione, dolores distinctio vero
-              blanditiis voluptatibus voluptate repellat nam aspernatur nemo,
-              possimus est fugit animi? Veniam.
+              Dashboard designed to be user-friendly and straightforward,
+              providing comprehensive information about all system users, total
+              tasks, and staff notices. It also includes a pie chart displaying
+              task status (pending and completed). Notably, the admin dashboard
+              differs from the staff dashboard, catering to their specific
+              individual needs.
             </p>
           </div>
           <img className="w-[500px] mx-auto" src={dashboard} alt="/" />
@@ -48,13 +51,14 @@ const Analytics = () => {
           <div className="flex flex-col justify-center text-center">
             <p className="text-[#00df9a] font-bold">Lorem ipsum dolor sit.</p>
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-              Lorem ipsum dolor sit amet.
+              User Management
             </h1>
             <p className="font-sans font-semibold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              nobis quasi ab ad dolor ratione, dolores distinctio vero
-              blanditiis voluptatibus voluptate repellat nam aspernatur nemo,
-              possimus est fugit animi? Veniam.
+              Allows administrators to add users, granting them login
+              credentials. Staff can then access an overview of system,
+              facilitating management and analysis.This overview aids in
+              managing user accounts effectively, monitoring user activities,
+              and performing insightful analysis to optimize system performance.
             </p>
           </div>
         </div>

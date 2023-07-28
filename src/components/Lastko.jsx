@@ -2,7 +2,7 @@ import React from "react";
 
 const Lastko = () => {
   return (
-    <div className="w-full bg-[#E9B384]">
+    <div name="contact" className="w-full bg-[#E9B384]">
       <div className="max-w-[1200px] mx-auto flex  lg:flex-row flex-col gap-2 justify-center items-center">
         <div className=" flex flex-col justify-center gap-5  items-center py-16">
           <h1 className="md-text-4xl  ml-5 sm:text-center sm:text:3xl text-7xl gap-10 font-bold py-2">

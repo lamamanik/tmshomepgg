@@ -1,9 +1,10 @@
 import react from "react";
+import "../index.css";
 import Typed from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="text-white bg-[#468B97]">
+    <div name="home" className="  text-white  bg-[var(--maincolor)]">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#F4F2DE] md:text-3xl sm:text-2xl text-xl font-bold">
           want to grow with future ?

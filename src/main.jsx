@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import "./index.css";
 import Navbar from "./components/Navbar.jsx";
+
 import Hero from "./components/Hero.jsx";
 import Analytics from "./components/Analytics.jsx";
 import Us from "./components/Us.jsx";

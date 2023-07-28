@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/brand.png";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -16,7 +17,18 @@ const Footer = () => {
   return (
     <div className="max-w-[1500px] bg-[#071952] px-20 text-white  py-16 grid lg:grid-cols-3 gap-8 text-black-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-white"></h1>
+        <div className="flex flex-row justify-left items-center gap-0 my-1">
+          <div>
+            <img class="w-16" src={logo} alt="brand.logo" />
+          </div>
+
+          <div>
+            <h1 className="w-full text-3xl m-4 font-bold text-[#00d9fa]">
+              TMS
+            </h1>
+          </div>
+        </div>
+
         <p className="py-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos
           rem nobis ducimus accusantium debitis, fuga soluta quasi quos. Sunt
@@ -56,7 +68,7 @@ const Footer = () => {
       </div>
       <div className="lg:col-span-2 flex justify-between">
         <div>
-          <h6 className="font-medium text-gra">Solutions</h6>
+          <h6 className="font-medium text-gray-400">Solutions</h6>
           <ul>
             <li className="py-2 text-sm">Analytics</li>
             <li className="py-2 text-sm">Marketing</li>
@@ -65,7 +77,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gra">Support</h6>
+          <h6 className="font-medium text-gray-400">Support</h6>
           <ul>
             <li className="py-2 text-sm">Analytics</li>
             <li className="py-2 text-sm">Marketing</li>
@@ -74,7 +86,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gra">Legal</h6>
+          <h6 className="font-medium text-gray-400">Legal</h6>
           <ul>
             <li className="py-2 text-sm">claim</li>
             <li className="py-2 text-sm">ploicy</li>
