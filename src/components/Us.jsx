@@ -8,7 +8,7 @@ const Us = () => {
     <div name="about" className="text-white w-full p-5 mb-20 ">
       <div className="w-full  rounded-xl left-0 right-0  h-[700px] bg-gray-900/90 absolute">
         <img
-          className="w-full h-full bg-slate-500 object-cover mix-blend-overlay"
+          className="w-full h-full bg-gray-500 object-cover mix-blend-overlay"
           src={duoimg}
           alt="/"
         />

@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className=" flex justify-between items-center h-24 max-w-[1240px] mx-auto z-[999] px-4 text-white">
       <img class="w-16" src={logo} alt="brand.logo" />
       <h1 className="w-full text-3xl font-bold text-[#00d9fa]">TMS</h1>
       <ul className="hidden md:flex cursor-pointer">
@@ -94,10 +94,60 @@ const Navbar = () => {
         </div>
 
         <ul className="uppercase p-4 cursor-pointer">
-          <li className="p-4">Home</li>
-          <li className="p-4">Features</li>
-          <li className="p-4">About</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4">
+            {" "}
+            <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
+              home
+            </Link>
+          </li>
+          <li className="p-4">
+            {" "}
+            <Link
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              features
+            </Link>
+          </li>
+          <li className="p-4">
+            {" "}
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              about
+            </Link>
+          </li>
+          <li className="p-4">
+            {" "}
+            <Link
+              to="testomonial"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              testomonial
+            </Link>
+          </li>
+          <li className="p-4">
+            {" "}
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

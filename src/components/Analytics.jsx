@@ -17,9 +17,9 @@ const Analytics = () => {
             </h1>
             <p className="font-sans font-semibold">
               Task cards provide a comprehensive overview of tasks, including
-              status, assignment time, and deadlines. Similarly, the
-              personalized staff dashboard offers this data with a completion
-              status button, enhancing task management.
+              task importance, ssigned time and deadlines. Similarly, the
+              personalized staff gets to see task which is assigned to only
+              them.
             </p>
           </div>
         </div>

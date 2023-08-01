@@ -161,7 +161,7 @@ const Testimonial = () => {
                   <p>9827364542</p>
                 </div>
               </div>
-              <span className="w-[300px] h-1 my-2 rounded-lg dark:bg-violet-400"></span>
+              <span className="w-[300px] h-1 my-2 rounded-lg z-0 dark:bg-violet-400"></span>
             </div>
           </SwiperSlide>
         </Swiper>
