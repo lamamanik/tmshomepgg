@@ -88,114 +88,33 @@ const Testimonial = () => {
                 <span className="w-[300px] h-1 my-2 rounded-lg dark:bg-violet-400"></span>
               </div>
             </SwiperSlide>
-
-            <SwiperSlide className="text-center  px-6  mt-5 text-18 flex justify-center items-center">
-              <div className="flex flex-col bottom-0 items-center lg:mx-20">
-                <div className=" relative text-center">
-                  <div className="py-1">
-                    <p className="text-xl italic font-semibold">
-                      "TMS is a lifesaver! Effortless task management, enhanced
-                      collaboration, and improved efficiency have transformed
-                      our workflow. Highly recommended!"
-                    </p>
-                  </div>
-                  {/* <AiOutlineSwapLeft className="absolute bottom-0 right-0 w-8 h-9 dark:text-gray-700" /> */}
-                </div>
-
-                <div className=" mt-5 flex flex-row my-2 gap-4 items-center">
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlineUserDelete className="h-8" />
-                    <p>sam kumar</p>
-                  </div>
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlinePhone className="" />
-                    <p>9827364542</p>
-                  </div>
-                </div>
-                <span className="w-[300px] h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-              </div>
-            </SwiperSlide>
-
             <SwiperSlide className="text-center  px-6  mt-5 text-18 flex justify-center items-center">
               <div className="flex flex-col bottom-0 items-center lg:mx-20">
                 <div className=" relative text-center">
                   {/* <AiOutlineSwapRight className="absolute top-0 left-2 w-8 h-8 dark:text-gray-700" /> */}
                   <div className="py-1">
-                    <p className="text-xl italic font-semibold">
-                      "Thanks to the Task Management System (TMS) project, our
-                      office tasks are now a breeze! Improved productivity,
-                      seamless communication, and valuable insights make it a
-                      game-changer."
-                    </p>
+                    <Fade bottom>
+                      <p className="text-xl italic font-semibold">
+                        "We love our new Task Management System (TMS)! It
+                        streamlines tasks, enhances teamwork, and boosts
+                        productivity. A game-changer for our business!"
+                      </p>
+                    </Fade>
                   </div>
                   {/* <AiOutlineSwapLeft className="absolute bottom-0 right-0 w-8 h-9 dark:text-gray-700" /> */}
                 </div>
-
-                <div className=" mt-5 flex flex-row gap-4 items-center">
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlineUserDelete className="h-8" />
-                    <p>Sita magar</p>
+                <Fade bottom>
+                  <div className=" mt-5 flex flex-row gap-4 items-center">
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlineUserDelete className="h-8" />
+                      <p>Hari prasad</p>
+                    </div>
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlinePhone className="" />
+                      <p>9827364542</p>
+                    </div>
                   </div>
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlinePhone className="" />
-                    <p>9827364542</p>
-                  </div>
-                </div>
-                <span className="w-[300px] h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className="text-center  px-6  mt-5 text-18 flex justify-center items-center">
-              <div className="flex flex-col bottom-0 items-center lg:mx-20">
-                <div className=" relative text-center">
-                  {/* <AiOutlineSwapRight className="absolute top-0 left-2 w-8 h-8 dark:text-gray-700" /> */}
-                  <div className="py-1">
-                    <p className="text-xl italic font-semibold">
-                      "We love our new Task Management System (TMS)! It
-                      streamlines tasks, enhances teamwork, and boosts
-                      productivity. A game-changer for our business!"
-                    </p>
-                  </div>
-                  {/* <AiOutlineSwapLeft className="absolute bottom-0 right-0 w-8 h-9 dark:text-gray-700" /> */}
-                </div>
-
-                <div className="  mt-5 flex flex-row gap-4 items-center">
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlineUserDelete className="h-8" />
-                    <p>Hari prasad</p>
-                  </div>
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlinePhone className="" />
-                    <p>9827364542</p>
-                  </div>
-                </div>
-                <span className="w-[300px] h-1 my-2 rounded-lg z-0 dark:bg-violet-400"></span>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="text-center  px-6  mt-5 text-18 flex justify-center items-center">
-              <div className="flex flex-col bottom-0 items-center lg:mx-20">
-                <div className=" relative text-center">
-                  {/* <AiOutlineSwapRight className="absolute top-0 left-2 w-8 h-8 dark:text-gray-700" /> */}
-                  <div className="py-1">
-                    <p className="text-xl italic font-semibold">
-                      "We love our new Task Management System (TMS)! It
-                      streamlines tasks, enhances teamwork, and boosts
-                      productivity. A game-changer for our business!"
-                    </p>
-                  </div>
-                  {/* <AiOutlineSwapLeft className="absolute bottom-0 right-0 w-8 h-9 dark:text-gray-700" /> */}
-                </div>
-
-                <div className=" mt-5 flex flex-row gap-4 items-center">
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlineUserDelete className="h-8" />
-                    <p>Hari prasad</p>
-                  </div>
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlinePhone className="" />
-                    <p>9827364542</p>
-                  </div>
-                </div>
+                </Fade>
                 <span className="w-[300px] h-1 my-2 rounded-lg z-0 dark:bg-violet-400"></span>
               </div>
             </SwiperSlide>
@@ -205,25 +124,90 @@ const Testimonial = () => {
                 <div className=" relative text-center">
                   {/* <AiOutlineSwapRight className="absolute top-0 left-2 w-8 h-8 dark:text-gray-700" /> */}
                   <div className="py-1">
-                    <p className="text-xl italic font-semibold">
-                      "We love our new Task Management System (TMS)! It
-                      streamlines tasks, enhances teamwork, and boosts
-                      productivity. A game-changer for our business!"
-                    </p>
+                    <Fade bottom>
+                      <p className="text-xl italic font-semibold">
+                        "We love our new Task Management System (TMS)! It
+                        streamlines tasks, enhances teamwork, and boosts
+                        productivity. A game-changer for our business!"
+                      </p>
+                    </Fade>
                   </div>
                   {/* <AiOutlineSwapLeft className="absolute bottom-0 right-0 w-8 h-9 dark:text-gray-700" /> */}
                 </div>
+                <Fade bottom>
+                  <div className=" mt-5 flex flex-row gap-4 items-center">
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlineUserDelete className="h-8" />
+                      <p>Hari prasad</p>
+                    </div>
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlinePhone className="" />
+                      <p>9827364542</p>
+                    </div>
+                  </div>
+                </Fade>
+                <span className="w-[300px] h-1 my-2 rounded-lg z-0 dark:bg-violet-400"></span>
+              </div>
+            </SwiperSlide>
 
-                <div className=" mt-5 flex flex-row gap-4 items-center">
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlineUserDelete className="h-8" />
-                    <p>Hari prasad</p>
+            <SwiperSlide className="text-center  px-6  mt-5 text-18 flex justify-center items-center">
+              <div className="flex flex-col bottom-0 items-center lg:mx-20">
+                <div className=" relative text-center">
+                  {/* <AiOutlineSwapRight className="absolute top-0 left-2 w-8 h-8 dark:text-gray-700" /> */}
+                  <div className="py-1">
+                    <Fade bottom>
+                      <p className="text-xl italic font-semibold">
+                        "We love our new Task Management System (TMS)! It
+                        streamlines tasks, enhances teamwork, and boosts
+                        productivity. A game-changer for our business!"
+                      </p>
+                    </Fade>
                   </div>
-                  <div className="flex flex-row gap-2 items-center">
-                    <AiOutlinePhone className="" />
-                    <p>9827364542</p>
-                  </div>
+                  {/* <AiOutlineSwapLeft className="absolute bottom-0 right-0 w-8 h-9 dark:text-gray-700" /> */}
                 </div>
+                <Fade bottom>
+                  <div className=" mt-5 flex flex-row gap-4 items-center">
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlineUserDelete className="h-8" />
+                      <p>Hari prasad</p>
+                    </div>
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlinePhone className="" />
+                      <p>9827364542</p>
+                    </div>
+                  </div>
+                </Fade>
+                <span className="w-[300px] h-1 my-2 rounded-lg z-0 dark:bg-violet-400"></span>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="text-center  px-6  mt-5 text-18 flex justify-center items-center">
+              <div className="flex flex-col bottom-0 items-center lg:mx-20">
+                <div className=" relative text-center">
+                  {/* <AiOutlineSwapRight className="absolute top-0 left-2 w-8 h-8 dark:text-gray-700" /> */}
+                  <div className="py-1">
+                    <Fade bottom>
+                      <p className="text-xl italic font-semibold">
+                        "We love our new Task Management System (TMS)! It
+                        streamlines tasks, enhances teamwork, and boosts
+                        productivity. A game-changer for our business!"
+                      </p>
+                    </Fade>
+                  </div>
+                  {/* <AiOutlineSwapLeft className="absolute bottom-0 right-0 w-8 h-9 dark:text-gray-700" /> */}
+                </div>
+                <Fade bottom>
+                  <div className=" mt-5 flex flex-row gap-4 items-center">
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlineUserDelete className="h-8" />
+                      <p>Hari prasad</p>
+                    </div>
+                    <div className="flex flex-row gap-2 items-center">
+                      <AiOutlinePhone className="" />
+                      <p>9827364542</p>
+                    </div>
+                  </div>
+                </Fade>
                 <span className="w-[300px] h-1 my-2 rounded-lg z-0 dark:bg-violet-400"></span>
               </div>
             </SwiperSlide>
