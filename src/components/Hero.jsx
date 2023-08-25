@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-import vid from "../assets/vid3.mp4";
+import vid from "../assets/vid4.mp4";
 import "/src/index.css";
 
 const Hero = () => {
@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
         <Zoom>
           <a href="http://localhost/TMS/login.php">
-            <button className="bg-[black] w-[140px] rounded-md font-medium my-5 mx-auto py-2  text-white ransition-transform hover:scale-105 hover:text-black hover:bg-white">
+            <button className="bg-black w-[140px] pointer-events-auto  cursor-pointer rounded-md font-medium my-5 mx-auto py-2 text-white transition-transform hover:scale-105 hover:text-black hover:bg-white">
               Get Started
             </button>
           </a>

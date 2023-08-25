@@ -13,9 +13,3 @@ body {
   background-blend-mode: darken;
   background-size: cover;
 }
-
-.background {
-  background: rgba(0, 0, 0, 0.7) url("src/assets/bgimg1.png");
-  background-size: cover;
-  background-blend-mode: darken;
-}

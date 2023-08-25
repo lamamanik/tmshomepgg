@@ -1,7 +1,7 @@
 import React from "react";
 import card from "../assets/picture4.png";
 import dashboard from "../assets/picture3.png";
-import bgimg from "../assets/bgimg1.jpg";
+import bgimg from "../assets/bgimg6.jpg";
 import list from "../assets/picture9.png";
 import notice from "../assets/picture11.png";
 import task from "../assets/picture10.png";
@@ -14,7 +14,7 @@ const Analytics = () => {
       name="features"
       className="w-full py-28 line-height text-white"
       style={{
-        backgroundImage: `url(${bgimg}), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))`,
+        backgroundImage: `url(${bgimg}), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5))`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

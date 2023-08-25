@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import bgimg from "../assets/bgimg5.jpg";
+import bgimg from "../assets/bgimg6.jpg";
 
 const Lastko = () => {
   return (
