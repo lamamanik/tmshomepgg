@@ -9,5 +9,12 @@
 }
 
 body {
-  background-color: #f4f2de;
+  background: rgba(0, 0, 0, 0.7) url("./assets/bgimg6.jpg");
+  background-blend-mode: darken;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url("src/assets/bgimg1.png");
+  background-size: cover;
+  background-blend-mode: darken;
 }
