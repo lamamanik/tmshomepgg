@@ -53,7 +53,7 @@ const Analytics = () => {
         </div>
 
         <div className="w-full   my-36 flex justify-center items-center">
-          <div className="max-w-[1340px] flex flex-col-reverse md:flex-row sm:flex-col-reverse justify-start items-center">
+          <div className="max-w-[1340px] p-5 flex flex-col-reverse md:flex-row sm:flex-col-reverse justify-start items-center">
             <div className="flex flex-col justify-center text-center sm:px-20">
               <Fade left>
                 <p className="text-[#00df9a] font-bold">
@@ -77,7 +77,7 @@ const Analytics = () => {
         </div>
 
         <div className="w-full my-36 flex justify-center items-center">
-          <div className="max-w-[1340px] flex flex-col md:flex-row justify-center items-center">
+          <div className="max-w-[1340px] p-5 flex flex-col md:flex-row justify-center items-center">
             <Fade left>
               <img className="w-[500px] mx-auto" src={list} alt="/" />
             </Fade>
@@ -102,7 +102,7 @@ const Analytics = () => {
         </div>
 
         <div className="w-full  my-36 flex justify-center items-center">
-          <div className="max-w-[1340px] flex flex-col-reverse md:flex-row sm:flex-col-reverse justify-start items-center">
+          <div className="max-w-[1340px] p-5 flex flex-col-reverse md:flex-row sm:flex-col-reverse justify-start items-center">
             <div className="flex flex-col justify-center text-center sm:px-20">
               <Fade left>
                 <p className="text-[#00df9a] font-bold">
@@ -126,7 +126,7 @@ const Analytics = () => {
         </div>
 
         <div className="w-full mt-36 flex justify-center items-center">
-          <div className="max-w-[1340px] flex flex-col md:flex-row justify-center items-center">
+          <div className="max-w-[1340px] p-5 flex flex-col md:flex-row justify-center items-center">
             <Fade left>
               <img className="w-[600px] mx-auto" src={task} alt="/" />
             </Fade>
@@ -138,7 +138,7 @@ const Analytics = () => {
                 <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
                   Task Assignment
                 </h1>
-                <p className="font-sans text-justify text-xl font-semibold ">
+                <p className="font-sans text-justify  text-xl font-semibold ">
                   Allocate assignments to staff, indicating title, description,
                   deadlines, and the degree of importance through low, medium,
                   and high priority levels.

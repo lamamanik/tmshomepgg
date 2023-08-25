@@ -8,11 +8,12 @@ import Roll from "react-reveal/Roll";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import bgimg from "../assets/bgimg1.jpg";
+
 const Us = () => {
   return (
-    <div name="about" className="text-white w-full h-screen  mb-20 ">
-      <Fade bottom>
-        <div className="w-full  rounded-xl left-0 right-0  h-[700px] bg-gray-900/90 absolute">
+    <div name="about" className="text-white w-full  mb-20 ">
+      <Fade>
+        <div className="w-full left-0 right-0  h-[700px] bg-gray-900/90 absolute">
           <img
             className="w-full h-full bg-gray-500 object-cover mix-blend-overlay"
             src={duoimg}
@@ -20,30 +21,28 @@ const Us = () => {
           />
         </div>
 
-        <div className="max-w-1240px mx-auto pt-14 text-white relative">
+        <div className="max-w-1240px mx-auto text-white relative">
           <div className="px-4 py-12">
             <Fade bottom>
               <h2 className="text-4xl font-semibold pt-8 text-slate-300 text-center">
                 Who are we ??
               </h2>
             </Fade>
-
             <Fade bottom>
               <h3 className="text-5xl font-bold py-6 text-center">
                 we are geeks.
               </h3>
             </Fade>
-
             <Fade bottom>
               <p className="py-4 text-3xl text-slate-300 text-center font-semibold">
                 Passionate coding enthusiasts, university students exploring
-                development and enjoying gaming for fun while working on our
-                first college project.
+                development and enjoying Valorant Gold gaming for fun while
+                working on our first college project.
               </p>
             </Fade>
           </div>
 
-          <div className="   grid grid-cols-1  lg:grid-cols-3  mx-8 sm:mx-20 gap-x-8 gap-y-10 pt-12 sm:pt-20 text-black">
+          <div className="grid grid-cols-1  lg:grid-cols-3  mx-8 sm:mx-20 gap-x-8 gap-y-10 pt-12 sm:pt-20 text-black">
             <Roll left>
               <div className="transition-transform hover:scale-105">
                 <div className="bg-[#141E46] text-white rounded-xl shadow-2xl transition-transform hover:scale-105 ">
