@@ -11,7 +11,7 @@ import bgimg from "../assets/bgimg1.jpg";
 
 const Us = () => {
   return (
-    <div name="about" className="text-white w-full  mb-20 ">
+    <div name="about" className="text-[#FFEDDB] w-full  mb-20 ">
       <Fade>
         <div className="w-full left-0 right-0  h-[700px] bg-gray-900/90 absolute">
           <img
@@ -21,20 +21,20 @@ const Us = () => {
           />
         </div>
 
-        <div className="max-w-1240px mx-auto text-white relative">
+        <div className="max-w-1240px mx-auto text-[#FFEDDB] relative">
           <div className="px-4 py-12">
             <Fade bottom>
-              <h2 className="text-4xl font-semibold pt-8 text-slate-300 text-center">
+              <h2 className="text-4xl font-semibold pt-8 text-[#FFEDDB] text-center">
                 Who are we ??
               </h2>
             </Fade>
             <Fade bottom>
-              <h3 className="text-5xl font-bold py-6 text-center">
+              <h3 className="text-5xl text-[#F4F4F2] font-bold py-6 text-center">
                 we are geeks.
               </h3>
             </Fade>
             <Fade bottom>
-              <p className="py-4 text-3xl text-slate-300 text-center font-semibold">
+              <p className="py-4 text-3xl text-[#F4F4F2] text-center font-semibold">
                 Passionate coding enthusiasts, university students exploring
                 development and enjoying Valorant Gold gaming for fun while
                 working on our first college project.
@@ -45,7 +45,7 @@ const Us = () => {
           <div className="grid grid-cols-1  lg:grid-cols-3  mx-8 sm:mx-20 gap-x-8 gap-y-10 pt-12 sm:pt-20 text-black">
             <Roll left>
               <div className="transition-transform hover:scale-105">
-                <div className="bg-[#141E46] text-white rounded-xl shadow-2xl transition-transform hover:scale-105 ">
+                <div className="bg-[#141E46] text-[#FFEDDB] rounded-xl shadow-2xl transition-transform hover:scale-105 ">
                   <div className="p-8 ">
                     <img
                       className="w-16 p-1 rounded  mt-[-4rem]"
@@ -53,7 +53,7 @@ const Us = () => {
                       alt=""
                     />
                     <h3 className="text-2xl font-bold">About Us</h3>
-                    <p className="text-1xl font-semibold ">
+                    <p className="text-1xl  font-semibold ">
                       We are student who find joy in learning and exploring
                       every day. Our passion lies in creating and innovating,
                       whether it's developing new ideas or bringing them to
@@ -69,7 +69,7 @@ const Us = () => {
 
             <Slide bottom>
               <div className="transition-transform hover:scale-105">
-                <div className="bg-[#141E46] text-white rounded-xl shadow-2xl transition-transform hover:scale-105 ">
+                <div className="bg-[#141E46] text-[#FFEDDB] rounded-xl shadow-2xl transition-transform hover:scale-105 ">
                   <div className="p-8">
                     <img
                       className="w-16 p-1 rounded mt-[-4rem]"
@@ -92,7 +92,7 @@ const Us = () => {
 
             <Roll right>
               <div className="transition-transform hover:scale-105">
-                <div className="bg-[#141E46] text-white rounded-xl shadow-2xl ransition-transform hover:scale-105 ">
+                <div className="bg-[#141E46] text-[#FFEDDB] rounded-xl shadow-2xl ransition-transform hover:scale-105 ">
                   <div className="p-8">
                     <img
                       className="w-16 p-1 rounded mt-[-4rem]"

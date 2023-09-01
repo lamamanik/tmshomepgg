@@ -55,7 +55,7 @@ const Footer = () => {
             </p>
             <div className="flex justify-between md:w-[75%] my-6">
               <a
-                href="https://www.youtube.com/"
+                href="https://www.youtube.com/@chiranrajthapa420"
                 target="_blank"
                 rel="noopener noreferrer"
               >

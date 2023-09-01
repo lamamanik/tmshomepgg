@@ -26,13 +26,13 @@ const Hero = () => {
           </p>
         </Fade>
         <Fade top>
-          <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-4 hover-effect">
+          <h1 className="md:text-7xl text-[#FFEDDB] sm:text-6xl text-4xl font-bold md:py-4 hover-effect">
             Grow with our TMS
           </h1>
         </Fade>
         <div className="flex flex-col">
           <Fade top>
-            <div className="md:text-4xl sm:text-3xl py-1 text-3xl font-bold hover-effect">
+            <div className="md:text-4xl sm:text-3xl text-[#FFEDDB] py-1 text-3xl font-bold hover-effect">
               <Typed
                 className="md:text-3xl sm:text-2xl py-1 text-1xl font-bold"
                 strings={[
@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
         <Zoom>
           <a href="http://localhost/TMS/login.php">
-            <button className="bg-black w-[140px] pointer-events-auto  cursor-pointer rounded-md font-medium my-5 mx-auto py-2 text-white transition-transform hover:scale-105 hover:text-black hover:bg-white">
+            <button className="bg-black w-[140px] pointer-events-auto  cursor-pointer rounded-md font-medium my-5 mx-auto py-2 text-[#F9F7F7] transition-transform hover:scale-105 hover:text-black hover:bg-white">
               Get Started
             </button>
           </a>

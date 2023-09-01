@@ -14,7 +14,7 @@ const Analytics = () => {
       name="features"
       className="w-full py-28 line-height text-white"
       style={{
-        backgroundImage: `url(${bgimg}), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5))`,
+        backgroundImage: `url(${bgimg}), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -37,10 +37,10 @@ const Analytics = () => {
                   <p className="text-[#00df9a] font-bold ">
                     Clear Task overview
                   </p>
-                  <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+                  <h1 className="md:text-4xl text-[#F4F4F2] sm:text-3xl text-2xl font-bold py-2">
                     Task Overview.
                   </h1>
-                  <p className="font-sans text-justify  text-xl font-semibold">
+                  <p className="font-sans md:text-justify text-[#FFEDDB] text-xl font-semibold">
                     Task cards provide a comprehensive overview of tasks,
                     including task importance, ssigned time and deadlines.
                     Similarly, the personalized staff dashboard gets to see only
@@ -59,10 +59,10 @@ const Analytics = () => {
                 <p className="text-[#00df9a] font-bold">
                   Individual feature Dashboard.
                 </p>
-                <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+                <h1 className="md:text-4xl text-[#F4F4F2] sm:text-3xl text-2xl font-bold py-2">
                   Simple,Userfriendly dashboard
                 </h1>
-                <p className="font-sans text-justify  text-xl font-semibold">
+                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold">
                   Dashboard designed to be user-friendly and straightforward,
                   providing comprehensive information about all system users,
                   total tasks, and staff notices. It also includes a pie chart
@@ -71,7 +71,7 @@ const Analytics = () => {
               </Fade>
             </div>
             <Fade right>
-              <img className="w-[600px] mx-auto" src={dashboard} alt="/" />
+              <img className="w-[500px] mx-auto" src={dashboard} alt="/" />
             </Fade>
           </div>
         </div>
@@ -79,17 +79,17 @@ const Analytics = () => {
         <div className="w-full my-36 flex justify-center items-center">
           <div className="max-w-[1340px] p-5 flex flex-col md:flex-row justify-center items-center">
             <Fade left>
-              <img className="w-[500px] mx-auto" src={list} alt="/" />
+              <img className="w-[400px] mx-auto" src={list} alt="/" />
             </Fade>
             <div className="flex flex-col justify-center text-center sm:px-24">
               <Fade right>
                 <p className="text-[#00df9a] font-bold">
                   User section to manage all user
                 </p>
-                <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+                <h1 className="md:text-4xl sm:text-3xl text-[#F4F4F2] text-2xl font-bold py-2">
                   User Management
                 </h1>
-                <p className="font-sans text-justify  text-xl font-semibold">
+                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold">
                   Allows administrators to add users, granting them login
                   credentials. Staff can then access an overview of system,
                   facilitating taskoverview and analysis.This feature aids in
@@ -108,10 +108,10 @@ const Analytics = () => {
                 <p className="text-[#00df9a] font-bold">
                   Send lot of notices to team
                 </p>
-                <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+                <h1 className="md:text-4xl sm:text-3xl text-[#F4F4F2] text-2xl font-bold py-2">
                   Send Notices to system users.
                 </h1>
-                <p className="font-sans text-justify  text-xl font-semibold">
+                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold">
                   "Administrators have the capability to transmit Notices to the
                   entire system, thereby assisting all system users in staying
                   informed about information provided by administrators and
@@ -120,7 +120,7 @@ const Analytics = () => {
               </Fade>
             </div>
             <Fade right>
-              <img className="w-[500px] mx-auto" src={notice} alt="/" />
+              <img className="w-[400px] mx-auto" src={notice} alt="/" />
             </Fade>
           </div>
         </div>
@@ -135,10 +135,10 @@ const Analytics = () => {
                 <p className="text-[#00df9a] font-bold">
                   Transparent and Comprehensive Task Assignment
                 </p>
-                <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+                <h1 className="md:text-4xl sm:text-3xl text-[#F4F4F2] text-2xl font-bold py-2">
                   Task Assignment
                 </h1>
-                <p className="font-sans text-justify  text-xl font-semibold ">
+                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold ">
                   Allocate assignments to staff, indicating title, description,
                   deadlines, and the degree of importance through low, medium,
                   and high priority levels.

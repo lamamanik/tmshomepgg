@@ -111,7 +111,7 @@ const Navbar = () => {
         </div>
 
         <ul className="md:flex flex flex-col justify-center items-center cursor-pointer">
-          <li className="py-16">
+          <li className="py-16 font-semibold">
             <Link
               to="home"
               spy={true}

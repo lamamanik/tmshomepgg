@@ -30,7 +30,7 @@ const Testimonial = () => {
     <Fade bottom>
       <div
         name="testomonial"
-        className="  cursor-pointer my-28 text-white  sm:px-10 rounded-xl  relative shadow-sm "
+        className="  cursor-pointer my-28 text-[#FFEDDB]  sm:px-10 rounded-xl  relative shadow-sm "
       >
         <div className="py-16 ">
           <Fade bottom>
