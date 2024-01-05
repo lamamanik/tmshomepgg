@@ -123,7 +123,7 @@ const Navbar = () => {
               home
             </Link>
           </li>
-          <li className="p-10">
+          <li className="p-10 font-semibold">
             <Link
               to="features"
               spy={true}
@@ -135,7 +135,7 @@ const Navbar = () => {
               features
             </Link>
           </li>
-          <li className="p-10">
+          <li className="p-10 font-semibold">
             <Link
               to="about"
               spy={true}

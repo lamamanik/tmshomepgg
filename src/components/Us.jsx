@@ -36,8 +36,8 @@ const Us = () => {
             <Fade bottom>
               <p className="py-4 text-3xl text-[#F4F4F2] text-center font-semibold">
                 Passionate coding enthusiasts, university students exploring
-                development and enjoying Valorant Gold gaming for fun while
-                working on our first college project.
+                development and enjoying gaming for fun while working on our
+                first college project.
               </p>
             </Fade>
           </div>

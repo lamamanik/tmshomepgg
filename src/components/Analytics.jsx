@@ -40,7 +40,7 @@ const Analytics = () => {
                   <h1 className="md:text-4xl text-[#F4F4F2] sm:text-3xl text-2xl font-bold py-2">
                     Task Overview.
                   </h1>
-                  <p className="font-sans md:text-justify text-[#FFEDDB] text-xl font-semibold">
+                  <p className="font-sans md:text-center text-[#FFEDDB] text-xl font-semibold">
                     Task cards provide a comprehensive overview of tasks,
                     including task importance, ssigned time and deadlines.
                     Similarly, the personalized staff dashboard gets to see only
@@ -62,7 +62,7 @@ const Analytics = () => {
                 <h1 className="md:text-4xl text-[#F4F4F2] sm:text-3xl text-2xl font-bold py-2">
                   Simple,Userfriendly dashboard
                 </h1>
-                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold">
+                <p className="font-sans md:text-center text-[#FFEDDB]  text-xl font-semibold">
                   Dashboard designed to be user-friendly and straightforward,
                   providing comprehensive information about all system users,
                   total tasks, and staff notices. It also includes a pie chart
@@ -89,7 +89,7 @@ const Analytics = () => {
                 <h1 className="md:text-4xl sm:text-3xl text-[#F4F4F2] text-2xl font-bold py-2">
                   User Management
                 </h1>
-                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold">
+                <p className="font-sans md:text-center text-[#FFEDDB]  text-xl font-semibold">
                   Allows administrators to add users, granting them login
                   credentials. Staff can then access an overview of system,
                   facilitating taskoverview and analysis.This feature aids in
@@ -111,7 +111,7 @@ const Analytics = () => {
                 <h1 className="md:text-4xl sm:text-3xl text-[#F4F4F2] text-2xl font-bold py-2">
                   Send Notices to system users.
                 </h1>
-                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold">
+                <p className="font-sans md:text-center text-[#FFEDDB]  text-xl font-semibold">
                   "Administrators have the capability to transmit Notices to the
                   entire system, thereby assisting all system users in staying
                   informed about information provided by administrators and
@@ -138,7 +138,7 @@ const Analytics = () => {
                 <h1 className="md:text-4xl sm:text-3xl text-[#F4F4F2] text-2xl font-bold py-2">
                   Task Assignment
                 </h1>
-                <p className="font-sans md:text-justify text-[#FFEDDB]  text-xl font-semibold ">
+                <p className="font-sans md:text-center text-[#FFEDDB]  text-xl font-semibold ">
                   Allocate assignments to staff, indicating title, description,
                   deadlines, and the degree of importance through low, medium,
                   and high priority levels.
