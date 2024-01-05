@@ -33,7 +33,7 @@ const Navbar = () => {
             duration={500}
             onClick={handleLinkClick} // Close the small screen navbar
           >
-            home
+            Home
           </Link>
         </li>
         <li className="p-4">
@@ -45,7 +45,7 @@ const Navbar = () => {
             duration={500}
             onClick={handleLinkClick} // Close the small screen navbar
           >
-            features
+            Features
           </Link>
         </li>
         <li className="p-4">
@@ -57,7 +57,7 @@ const Navbar = () => {
             duration={500}
             onClick={handleLinkClick} // Close the small screen navbar
           >
-            about
+            About
           </Link>
         </li>
         <li className="p-4">
@@ -69,7 +69,7 @@ const Navbar = () => {
             duration={500}
             onClick={handleLinkClick} // Close the small screen navbar
           >
-            testimonial
+            Testimonial
           </Link>
         </li>
         <li className="p-4">
